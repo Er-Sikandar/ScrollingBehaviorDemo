@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Scrolling Toolbar"
+        android:textColor="@color/white"
+        android:id="@+id/btn_scToolbar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         app:layout_constraintTop_toBottomOf="@id/btn_scToolbar"
+        android:text="Scrolling Toolbar with Tab"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_scToolbarwithTab"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_scToolbarwithTab"
+        android:text="Scrolling Space"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_scSpace"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_scSpace"
+        android:text="Scrolling Space 2"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_scSpace2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_scSpace2"
+        android:text="Scrolling Image"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_scImage"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_scSpace2"
+        android:text="Scrolling Over Content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_scOverContent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
