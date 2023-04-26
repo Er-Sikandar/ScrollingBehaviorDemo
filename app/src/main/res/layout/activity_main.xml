@@ -52,7 +52,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/btn_scSpace2"
+        app:layout_constraintTop_toBottomOf="@id/btn_scImage"
         android:text="Scrolling Over Content"
         android:layout_marginTop="15dp"
         android:textColor="@color/white"
